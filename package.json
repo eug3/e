@@ -2,8 +2,7 @@
   "name": "electron-edge-js-quick-start",
   "version": "1.0.0",
   "description": "Minimal Electron application using `electron-edge-js` with .NET",
- "authors": "your_name",  
-    
+  "authors": "your_name",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -24,7 +23,10 @@
   "license": "MIT",
   "dependencies": {
     "electron-edge-js": "^31.3.0",
-    "electron-squirrel-startup": "^1.0.1"
+    "electron-log": "^5.2.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "fs-extra": "^11.2.0",
+    "module": "^1.2.5"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.4.0",
